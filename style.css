@@ -1,0 +1,151 @@
+/* Google Fonts 적용 */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/reddy-galaxy-2d.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* 텍스트 스타일 */
+h1, h2, h3 {
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 텍스트 그림자 추가 */
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* 핵심 키워드 강조 */
+.highlight {
+    color: #ffcc00;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* 전체 레이아웃 */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    background-color: rgba(255, 0, 0, 0.7); /* 배경 투명도 */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 3em;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2em;
+}
+
+/* 배너 섹션 */
+.banner {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+}
+
+.banner-content {
+    background: rgba(0, 0, 0, 0.4); /* 배너 배경 투명도 */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* 토큰 소개 섹션 */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    width: 45%;
+}
+
+.about-text {
+    width: 50%;
+    text-align: left;
+}
+
+/* 주요 특징 섹션 */
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* 작은 화면에서 겹치지 않도록 */
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 이미지 크기 조정 */
+.feature-image {
+    max-width: 200px; /* 이미지의 최대 너비 */
+    height: auto; /* 높이는 비율에 맞게 자동 조정 */
+    margin-bottom: 20px; /* 이미지와 텍스트 사이의 여백 */
+}
+
+/* 로드맵 섹션 */
+.roadmap {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.roadmap-item {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.roadmap-item h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.roadmap-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.roadmap-item ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* 푸터 섹션 */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.1em;
+    margin: 0;
+}
